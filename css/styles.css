@@ -1,6 +1,6 @@
 
 body {
-    transition: all 1s ease-out;
+    transition: all 0,5s ease-out;
     text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -119,16 +119,6 @@ nav {
 .pricing-column {
     padding: 3% 2%;
 }
-@media (max-width: 1028px) {
-    #title {
-        text-align: center;
-    }
-    .dog {
-        position: static;
-        transform: rotate(0);
-        margin: auto;
-    }
-}
 /* Call to Action section */
 #cta h3 {
     font-family: 'Montserrat', sans-serif;
@@ -157,4 +147,22 @@ nav {
 #footer p {
     font-size: 1.3rem;
     padding-bottom: 4%;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-dog {
+        display: none;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #cta h3 {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    em {
+        font-size: 1.2rem;
+    }
 }
