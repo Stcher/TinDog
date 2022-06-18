@@ -1,0 +1,160 @@
+
+body {
+    transition: all 1s ease-out;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.white-section {
+    background-color: white;
+}
+.colored-section {
+    background-color: #ff4c69;
+}
+
+/* Title section */
+
+#title {
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+nav {
+    padding-bottom: 3.5rem;
+}
+.nav-item {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+.title-dog {
+    transform: rotate(25deg);
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 4rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.downbutton, .features-h3 {
+    font-size: 1.5rem;
+    margin: 2% 3% 2% 0;
+}
+.title-h1 {
+    width:auto;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+    margin: 4rem 0 2rem 0;
+}
+
+/* Features section */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+#features .fa-solid {
+    color: #ef8172;
+    font-size: 4rem;
+}
+.feature-col {
+    padding: 5%;
+}
+.features-h3 {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+#features p {
+    color: #8f8f8f;
+}
+.fa-solid:hover, .fa-brands:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img {
+    width: 15%;
+    margin: 0 20px 50px;
+}
+.carousel-item, #features {
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .dog {
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+    }
+}
+/* Call to Action section */
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+.cta-info {
+    padding: 80px;
+}
+
+/*  Footer section */
+.fa-solid, .fa-brands {
+    padding: 10px;
+}
+#footer i {
+    padding: 15px;
+    font-size: 1.6rem;
+}
+.footer-brands {
+    margin: 6% 0 0.5% 0;
+}
+#footer p {
+    font-size: 1.3rem;
+    padding-bottom: 4%;
+}
